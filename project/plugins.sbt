@@ -3,7 +3,7 @@ resolvers ++= Seq(
   "Josh Cough sbt plugins" at "http://bintray.com/joshcough/sbt-plugins"
 )
 
-addSbtPlugin("com.joshcough" % "scala-minecraft-yml-gen" % "0.3.3")
+addSbtPlugin("com.joshcough" % "minecraft-sbt-plugin" % "0.3.3")
 
 addSbtPlugin("me.lessis" % "bintray-sbt" % "0.1.0")
 

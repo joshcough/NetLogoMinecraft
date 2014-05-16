@@ -38,7 +38,7 @@ object build extends Build {
     aggregate = Seq(netlogoPlugin, netlogoLibPlugin)
   )
 
-  lazy val npcLib = "com.joshcough" %% "remote-entities" % "1.7.2-R0.2-SNAPSHOT"
+  lazy val npcLib = "com.joshcough" %% "remote-entities" % "1.7.2-R0.2_0.3.3"
   lazy val netlogoRepo = bintray.Opts.resolver.repo("netlogo", "NetLogoHeadless")
   lazy val remoteEntitiesRepo = bintray.Opts.resolver.repo("joshcough", "remote-entities")
 
